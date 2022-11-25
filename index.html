@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Color Generator App</title>
+</head>
+
+<body>
+    <h1>Color Scheme Generator</h1>
+    <div class="main">
+        <div id="input-container">
+            <input type="color" id="color" value="#ff0000">
+            <select name="mode" id="mode">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="generate-color">Generate</button>
+            <div id="load-bar">
+                <div id="loader"></div>
+            </div>
+
+        </div>
+        <div id="color-scheme">
+            <div class="color-flex" id="color1">
+
+            </div>
+            <div class="color-flex" id="color2"></div>
+            <div class="color-flex" id="color3"></div>
+            <div class="color-flex" id="color4"></div>
+            <div class="color-flex" id="color5"></div>
+        </div>
+        <div class="color-names">
+            <div class="color-name" id="name1">#000
+            </div>
+            <div class="color-name" id="name2">#000
+            </div>
+            <div class="color-name" id="name3">#000</div>
+            <div class="color-name" id="name4">#000</div>
+            <div class="color-name" id="name5">#000</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
