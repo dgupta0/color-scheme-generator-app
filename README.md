@@ -5,4 +5,4 @@ https://www.figma.com/file/twasy8Bca4hW7gunLFSLoY/Color-Picker?node-id=2%3A1155
 
 ## Functionalities-
 -Generate color scheme in 7 modes <br/>
-- Copy the color id to the clipboard
+-Copy the color id to the clipboard <br/>
