@@ -1,16 +1,17 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
     text-align: center;
     font-family: "Inter";
     background-color: rgb(34, 34, 34);
+    overflow: hidden;
 }
 
 .main {
-    max-width: 700px;
-    height: 600px;
+    max-width: 655px;
     background-color: rgb(255, 255, 255);
     margin: auto;
     border-radius: 5px;
@@ -19,6 +20,7 @@ body {
 }
 
 h1 {
+    margin: 0.5em 0;
     color: aliceblue;
 }
 
@@ -94,7 +96,7 @@ select {
 
 .color-flex {
     width: 20%;
-    height: 500px;
+    height: 455px;
     display: flex;
 }
 
